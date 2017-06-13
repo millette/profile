@@ -1,0 +1,5 @@
+node_modules
+.env
+.datignore
+bower_components
+notes
