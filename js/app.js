@@ -1,8 +1,10 @@
-/* global DatArchive, riot */
+/* global DatArchive, riot, utils */
 
 'use strict'
 
 Boolean((async (w) => {
+  utils.info()
+
   if (typeof DatArchive === 'undefined') { return riot.mount('dat-http') }
 
 /*
