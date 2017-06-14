@@ -4,6 +4,7 @@
 
 Boolean((async (w) => {
   utils.info()
+  // utils.info()
 
   if (typeof DatArchive === 'undefined') { return riot.mount('dat-http') }
 
