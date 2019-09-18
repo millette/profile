@@ -11,7 +11,6 @@ Boolean(((w, d, modName) => {
   const isBeaker = () => w.navigator.appVersion.indexOf('BeakerBrowser/') !== -1
   const isDatKey = (k) => DAT_HASH_REGEX.test(k || window.location.hostname)
 
-
   const getDatKey = (u) => {
     if (!u) { u = window.location.hostname }
     if (isDatKey(u)) { return u }
